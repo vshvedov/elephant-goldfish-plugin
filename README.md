@@ -1,4 +1,4 @@
-# 🐘/🐡 Elephant/Goldfish: Claude Code plugin
+# 🐘/🐡 - Elephant/Goldfish: Claude Code plugin
 
 A Claude Code plugin: five-stage workflow for software work, built around the elephant/goldfish pattern from [Dave Rensin's article](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874).
 
@@ -21,6 +21,16 @@ Five skills become available, namespaced under `/elephant-goldfish:`:
 | `/elephant-goldfish:precommit-review` | Independent reviewer loop on the pending diff. Lint + typecheck + tests as pre-flight, then a fresh subagent reviews the diff cold. |
 
 Implementation skills (`fix-bug`, `new-feature`) stop short of committing. You authorize the commit explicitly.
+
+Usage examples:
+
+```sh
+/elephant-goldfish:fix-bug gh issue 42
+/elephant-goldfish:new-feature gh issue 67
+/elephant-goldfish:precommit-review
+/elephant-goldfish:brainstorm "I have a an idea, but I don't know what to do with it."
+/elephant-goldfish:prd "I need to implement X in Y, here is the description."
+```
 
 ## The pipeline
 
