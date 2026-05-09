@@ -15,6 +15,8 @@ Two marketplaces, both keep working — pick whichever you prefer:
 /plugin install elephant-goldfish@claude-workflows-marketplace
 ```
 
+The first line points Claude at the GitHub repo `vshvedov/elephant-goldfish-plugin`, which contains a `.claude-plugin/marketplace.json` declaring `name: claude-workflows-marketplace`. That's why the install line references `@claude-workflows-marketplace` — it's the marketplace's declared identity, not the repo path.
+
 **Stable (official Claude Code marketplace):**
 
 ```
@@ -22,6 +24,8 @@ Two marketplaces, both keep working — pick whichever you prefer:
 ```
 
 Both install the same plugin. The personal marketplace ships updates as soon as they land in this repo; the official one is gated by Anthropic's review.
+
+> Note: `/plugin` runs inside a Claude Code session. If your terminal says "/plugin isn't available in this environment," start `claude` first, then paste the commands at the prompt.
 
 Five skills become available, namespaced under `/elephant-goldfish:`:
 
