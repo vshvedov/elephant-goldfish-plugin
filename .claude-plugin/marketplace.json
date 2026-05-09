@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-workflows-marketplace",
+  "name": "eg-workflow",
   "description": "Personal marketplace for Claude Code workflow plugins by Vladyslav Shvedov.",
   "owner": {
     "name": "Vladyslav Shvedov"

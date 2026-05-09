@@ -14,7 +14,7 @@ A Claude Code plugin: five-stage workflow for software work, built around the el
 
 ```
 /plugin marketplace add vshvedov/elephant-goldfish-plugin
-/plugin install elephant-goldfish@claude-workflows-marketplace
+/plugin install elephant-goldfish@eg-workflow
 ```
 
 **Official Claude Code marketplace:**
