@@ -1,4 +1,46 @@
-# 🐘/🐡 (Elephant/Goldfish): Claude Code plugin
+# Elephant/Goldfish: Claude Code plugin
+
+<img width="1280" height="640" alt="eg" src="https://github.com/user-attachments/assets/a93b02da-1390-4be9-adba-8c1e7cb0f529" />
+
+![Uploading eg.<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <!-- Deep black background -->
+  <rect width="1280" height="640" fill="#0d0d0d" />
+  
+  <!-- Outer border for a sharp graphic novel panel feel -->
+  <rect x="40" y="40" width="1200" height="560" fill="none" stroke="#ffffff" stroke-width="4" />
+  
+  <!-- Panel divider -->
+  <line x1="640" y1="40" x2="640" y2="600" stroke="#ffffff" stroke-width="4" />
+  
+  <!-- Left Panel: Elephant (Long-Term Context) -->
+  <g transform="translate(100, 100)">
+    <text x="0" y="40" font-family="'Helvetica Neue', Inter, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" letter-spacing="4">01 / LONG-TERM</text>
+    <text x="0" y="160" font-family="'Helvetica Neue', Inter, sans-serif" font-size="96" font-weight="900" fill="#ffffff" letter-spacing="-2">ELEPHANT</text>
+    
+    <!-- Clean line art abstracting massive storage blocks -->
+    <path d="M 0 280 L 400 280 L 400 360 L 0 360 Z" fill="none" stroke="#ffffff" stroke-width="3" />
+    <path d="M 0 300 L 380 300" stroke="#ffffff" stroke-width="1" />
+    <path d="M 0 320 L 380 320" stroke="#ffffff" stroke-width="1" />
+    <path d="M 0 340 L 380 340" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Right Panel: Goldfish (Short-Term Working Memory) -->
+  <g transform="translate(740, 100)">
+    <text x="0" y="40" font-family="'Helvetica Neue', Inter, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" letter-spacing="4">02 / SHORT-TERM</text>
+    <text x="0" y="160" font-family="'Helvetica Neue', Inter, sans-serif" font-size="96" font-weight="900" fill="#ffffff" letter-spacing="-2">GOLDFISH</text>
+    
+    <!-- Clean line art abstracting volatile, moving memory nodes -->
+    <circle cx="80" cy="320" r="60" fill="none" stroke="#ffffff" stroke-width="3" />
+    <circle cx="140" cy="320" r="40" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6 6" />
+    <circle cx="180" cy="320" r="20" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Central bridging element representing the plugin integration -->
+  <rect x="520" y="460" width="240" height="80" fill="#ffffff" />
+  <text x="640" y="510" font-family="'Helvetica Neue', Inter, sans-serif" font-size="26" font-weight="bold" fill="#0d0d0d" text-anchor="middle" letter-spacing="2">CLAUDE PLUGIN</text>
+</svg>
+svg…]()
+
 
 A Claude Code plugin: five-stage workflow for software work, built around the elephant/goldfish pattern from [Dave Rensin's article](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874).
 
