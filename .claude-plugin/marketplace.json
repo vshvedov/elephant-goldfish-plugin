@@ -14,7 +14,7 @@
         "url": "https://github.com/vshvedov"
       },
       "category": "workflow",
-      "source": ".",
+      "source": "./plugins/elephant-goldfish",
       "homepage": "https://github.com/vshvedov/elephant-goldfish-plugin",
       "keywords": [
         "workflow",

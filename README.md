@@ -355,7 +355,7 @@ The skills include a routing hint in `new-feature`: if your repo has its own sta
 ```sh
 git clone https://github.com/<your-fork>/elephant-goldfish-plugin
 cd /path/to/your-test-repo
-claude --plugin-dir /path/to/elephant-goldfish-plugin
+claude --plugin-dir /path/to/elephant-goldfish-plugin/plugins/elephant-goldfish
 ```
 
 Inside the session:
