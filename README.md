@@ -1,4 +1,4 @@
-# 🐘/🐡 - Elephant/Goldfish: Claude Code plugin
+# 🐘/🐡 (Elephant/Goldfish): Claude Code plugin
 
 A Claude Code plugin: five-stage workflow for software work, built around the elephant/goldfish pattern from [Dave Rensin's article](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874).
 
