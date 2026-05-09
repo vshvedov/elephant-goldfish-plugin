@@ -1,6 +1,4 @@
-# Elephant/Goldfish: Claude Code plugin
-
-<img width="1280" height="640" alt="eg" src="https://github.com/user-attachments/assets/f314c714-a8d1-43db-b778-94695ea485b3" />
+# Claude Code Workflows
 
 A Claude Code plugin: five-stage workflow for software work, built around the elephant/goldfish pattern from [Dave Rensin's article](https://drensin.medium.com/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874).
 
@@ -13,19 +11,8 @@ A Claude Code plugin: five-stage workflow for software work, built around the el
 **This repo's marketplace:**
 
 ```
-/plugin marketplace add vshvedov/elephant-goldfish-plugin
+/plugin marketplace add vshvedov/claude-code-workflows
 /plugin install elephant-goldfish@eg-workflow
-```
-
-<img width="598" height="322" alt="Screenshot 2026-05-09 at 12 56 55 PM" src="https://github.com/user-attachments/assets/c44af786-d6e2-42a2-b41a-d146c73ac5c3" />
-
-
-**Official Claude Code marketplace:**
-
-⚠️ Still under review ⚠️
-
-```
-/plugin install elephant-goldfish@claude-plugins-official
 ```
 
 > Note: `/plugin` runs inside a Claude Code session. If your terminal says "/plugin isn't available in this environment," start `claude` first, then paste the commands at the prompt.
