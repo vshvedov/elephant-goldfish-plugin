@@ -6,24 +6,22 @@ A Claude Code plugin: five-stage workflow for software work, built around the el
 
 ## Install
 
-Two marketplaces, both keep working — pick whichever you prefer:
+`/plugin` command is **only** available in Claude CLI. Open `claude` in your terminal, and:
 
-**Latest (personal marketplace, always up to date):**
+**This repo's marketplace:**
 
 ```
 /plugin marketplace add vshvedov/elephant-goldfish-plugin
 /plugin install elephant-goldfish@claude-workflows-marketplace
 ```
 
-The first line points Claude at the GitHub repo `vshvedov/elephant-goldfish-plugin`, which contains a `.claude-plugin/marketplace.json` declaring `name: claude-workflows-marketplace`. That's why the install line references `@claude-workflows-marketplace` — it's the marketplace's declared identity, not the repo path.
+**Official Claude Code marketplace:**
 
-**Stable (official Claude Code marketplace):**
+⚠️ Still under review ⚠️
 
 ```
 /plugin install elephant-goldfish@claude-plugins-official
 ```
-
-Both install the same plugin. The personal marketplace ships updates as soon as they land in this repo; the official one is gated by Anthropic's review.
 
 > Note: `/plugin` runs inside a Claude Code session. If your terminal says "/plugin isn't available in this environment," start `claude` first, then paste the commands at the prompt.
 
